@@ -11,4 +11,9 @@
     ![image](https://github.com/philiwon8868/Webex_ChatGPT/assets/8743281/681192be-158f-43bc-b3ca-99c8807df99e)
 
 
+## Installation
+1. Modify the webhook.py with the corresponding roomID, the IP address of your Nexus Dashboard Insights, the bearer tokens for Webex and OpenAI API and the credentials.
+2. Deploy your webhook in an environment so that it can be assessed by a URL.
+3. Register the webhook URL to webex teamspace.
+
 
