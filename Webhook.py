@@ -23,7 +23,6 @@ roomID = ""
 # Person ID of the incoming message
 personID = ""
 
-#@app.route('/messenger_listner',methods=['POST','GET'])
 @app.route('/',methods=['POST','GET'])
 
 # Default Listener for the incoming messages
