@@ -6,9 +6,8 @@
  3. "Anomaly" or "Advisory" - use Nexus Dashboard Insights API to retrieve any anomlies or advisories from the designated Nexus Dashboard Insights.
  4. "Anomaly+ChatGPT" or "Advisory+ChatGPT" - on top of action 3, the webook will call ChatGPT for the reason and resoluton of the anomalies or advisories.
 
-    Below is the logic flow diagram:
-
-    <img width="451" alt="image" src="https://github.com/philiwon8868/Webex_ChatGPT/assets/8743281/606415a4-3ef2-46af-998a-c9870a93a7ce">
+Below is the logic flow diagram:
+<img width="451" alt="image" src="https://github.com/philiwon8868/Webex_ChatGPT/assets/8743281/4653564b-8203-4c2a-8616-61133b10434b">
 
 
 ## Installation
