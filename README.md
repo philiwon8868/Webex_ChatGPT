@@ -18,13 +18,14 @@
 
 ## Usage
 1. Call ChatGPT from Webex Team Space, simply type "ChatGPT " followed by the question to be asked:
-![image](https://github.com/philiwon8868/Webex_ChatGPT/assets/8743281/04fe2eeb-1cfa-4b46-a7ff-2f5b46d301f6)
+![image](https://github.com/philiwon8868/Webex_ChatGPT/assets/8743281/dd52dfd2-fa2a-49ec-9731-0de5aeb0102d)
 
 2. On the webex team space UI, type "Advisory" to tell the webhook to retrieve advisories from the designated Nexus Dashboard Insights:
-![image](https://github.com/philiwon8868/Webex_ChatGPT/assets/8743281/a48a3b64-6202-44f5-afb7-418cc96b626d)
+![image](https://github.com/philiwon8868/Webex_ChatGPT/assets/8743281/4c43d1f6-bb32-49ea-95cd-8b144b9d48d2)
 
 3. To feed the Nexus Dashboard Insights' Advisories into chatGPT, simply type "Advisory+ChatGPT":
-![image](https://github.com/philiwon8868/Webex_ChatGPT/assets/8743281/b04178f0-5f7e-4952-a849-8eaea287acc7)
+![image](https://github.com/philiwon8868/Webex_ChatGPT/assets/8743281/f7661f90-a50a-4488-a576-2ff527ab61b1)
+
 
 ## Known Issues
 The question to be submitted to ChatGPT cannot include attachments.
