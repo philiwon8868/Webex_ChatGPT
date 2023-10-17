@@ -1,5 +1,5 @@
 # Webex_ChatGPT
- Webex Teamspace as the UI for ChatGPT. This program illustrates how to integrate Webex teamspace with ChatGPT and Nexus Dashboard Insights API. Whenever the user type in a message into the teamspace, it will trigger a Webex Webhook to execute. The Webhook will retrieve the message  from the room and interprete it. Several operations are defined as below:
+ Webex Teamspace as the UI for ChatGPT. This program simply illustrates how to integrate Webex teamspace with ChatGPT and Nexus Dashboard Insights API. Whenever the user type in a message into the teamspace, it will trigger a Webex Webhook to execute. The Webhook will retrieve the message  from the room and interprete it. Several operations are defined as below:
 
  1. "HELP" - print out the functions supported by the webhook
  2. "ChatGPT" - followed by a question; the webhook will call the ChatGPT on behalf of the user via the OpenAI ChatGPT API and send the result back to the teamspace.
@@ -23,7 +23,11 @@
 2. On the webex team space UI, type "Advisory" to tell the webhook to retrieve advisories from the designated Nexus Dashboard Insights:
 ![image](https://github.com/philiwon8868/Webex_ChatGPT/assets/8743281/a48a3b64-6202-44f5-afb7-418cc96b626d)
 
-3. 
+3. To feed the Nexus Dashboard Insights' Advisories into chatGPT, simply type "Advisory+ChatGPT":
+![image](https://github.com/philiwon8868/Webex_ChatGPT/assets/8743281/b04178f0-5f7e-4952-a849-8eaea287acc7)
+
+## Known Issues
+The question to be submitted to ChatGPT cannot include attachments.
 
 
 
