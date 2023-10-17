@@ -7,6 +7,8 @@
  4. "Anomaly+ChatGPT" or "Advisory+ChatGPT" - on top of action 3, the webook will call ChatGPT for the reason and resoluton of the anomalies or advisories.
 
 Below is the logic flow diagram:
+
+
 <img width="451" alt="image" src="https://github.com/philiwon8868/Webex_ChatGPT/assets/8743281/4653564b-8203-4c2a-8616-61133b10434b">
 
 
