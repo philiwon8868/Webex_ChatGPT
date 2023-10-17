@@ -16,4 +16,16 @@
 2. Deploy your webhook in an environment so that it can be assessed by a URL.
 3. Register the webhook URL to webex teamspace.
 
+## Usage
+1. Call ChatGPT from Webex Team Space, simply type "ChatGPT " followed by the question to be asked:
+![image](https://github.com/philiwon8868/Webex_ChatGPT/assets/8743281/04fe2eeb-1cfa-4b46-a7ff-2f5b46d301f6)
+
+2. On the webex team space UI, type "Advisory" to tell the webhook to retrieve advisories from the designated Nexus Dashboard Insights:
+![image](https://github.com/philiwon8868/Webex_ChatGPT/assets/8743281/a48a3b64-6202-44f5-afb7-418cc96b626d)
+
+3. 
+
+
+
+
 
