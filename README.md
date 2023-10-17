@@ -9,13 +9,11 @@ Webex Teamspace as the UI for ChatGPT. This program simply illustrates how to in
  1. "HELP" - print out the functions supported by the webhook
  2. "ChatGPT" - followed by a question; the webhook will call the ChatGPT on behalf of the user via the OpenAI ChatGPT API and send the result back to the teamspace.
  3. "Anomaly" or "Advisory" - use Nexus Dashboard Insights API to retrieve any anomlies or advisories from the designated Nexus Dashboard Insights.
- 4. "Anomaly+ChatGPT" or "Advisory+ChatGPT" - on top of action 3, the webook will call ChatGPT for the reason and resoluton of the anomalies or advisories.
+ 4. "Anomaly+ChatGPT" or "Advisory+ChatGPT" - on top of action 3, the webhook will call ChatGPT for the reason and resoluton of the anomalies or advisories.
 
 Below is the logic flow diagram:
 
-
-<img width="451" alt="image" src="https://github.com/philiwon8868/Webex_ChatGPT/assets/8743281/4653564b-8203-4c2a-8616-61133b10434b">
-
+<img width="669" alt="image" src="https://github.com/philiwon8868/Webex_ChatGPT/assets/8743281/2fb1da86-f619-426e-b52e-2653bedca9a5">
 
 ## Installation
 1. Modify the webhook.py with the corresponding roomID, the IP address of your Nexus Dashboard Insights, the bearer tokens for Webex and OpenAI API and the credentials.
