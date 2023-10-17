@@ -1,5 +1,10 @@
 # Webex_ChatGPT
- Webex Teamspace as the UI for ChatGPT. This program simply illustrates how to integrate Webex teamspace with ChatGPT and Nexus Dashboard Insights API. Whenever the user type in a message into the teamspace, it will trigger a Webex Webhook to execute. The Webhook will retrieve the message  from the room and interprete it. Several operations are defined as below:
+
+## Disclaimer
+Note that this repository enables interaction with third-party Generative AI platforms outside of Cisco’s control, and users should review those third-party terms and privacy statements to understand how data is processed, stored, or used, including input data.
+
+## Description
+Webex Teamspace as the UI for ChatGPT. This program simply illustrates how to integrate Webex teamspace with ChatGPT and Nexus Dashboard Insights API. Whenever the user type in a message into the teamspace, it will trigger a Webex Webhook to execute. The Webhook will retrieve the message  from the room and interprete it. Several operations are defined as below:
 
  1. "HELP" - print out the functions supported by the webhook
  2. "ChatGPT" - followed by a question; the webhook will call the ChatGPT on behalf of the user via the OpenAI ChatGPT API and send the result back to the teamspace.
